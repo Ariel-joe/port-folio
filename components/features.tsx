@@ -3,39 +3,39 @@ import Image from "next/image";
 const features = [
   {
     icon: "/javascript-logo.png",
-    title: "JavaScript: The OG Powerhouse",
+    title: "JavaScript Proficiency",
     description:
-      "The language that started it all—whether it's web apps, automation, or making the browser dance, JS is my first love! 💛",
+      "Extensive experience in developing dynamic web applications and automation scripts using core JavaScript principles.",
   },
   {
     icon: "/typescript-logo.png",
-    title: "TypeScript: The Bug Slayer",
+    title: "TypeScript Expertise",
     description:
-      "Strongly typed, error-proof, and smooth—TypeScript keeps my code clean, safe, and maintainable. No more 'undefined is not a function' surprises! 🔥",
+      "Implementation of strongly typed solutions for enhanced code maintainability and error prevention in complex projects.",
   },
   {
     icon: "/react-1-logo-png-transparent.png",
-    title: "React.js: UI Sorcery",
+    title: "React.js UI Development",
     description:
-      "Building interactive, lightning-fast UIs with React is my jam. Hooks, state management, and reusable components? Easy peasy! ⚛️",
+      "Development of high-performance, interactive user interfaces leveraging React.js hooks, state management, and component architecture.",
   },
   {
     icon: "/next-js-logo-png_seeklogo-449824.png",
-    title: "Next.js: The Full-Stack Beast",
+    title: "Next.js Full-Stack Applications",
     description:
-      "SSG, SSR, API routes—Next.js turns my React apps into high-performance, SEO-friendly powerhouses. It's like React, but on steroids. 🚀",
+      "Building scalable, SEO-optimized full-stack applications with Next.js, utilizing server-side rendering and static site generation.",
   },
   {
     icon: "/tailwindcss.png",
-    title: "Tailwind CSS: Styling at Warp Speed",
+    title: "Tailwind CSS Styling",
     description:
-      "No more messy stylesheets—just utility classes for the win! Tailwind makes every project look clean, modern, and responsive in no time. 🎨",
+      "Rapid development of responsive and modern user interfaces with Tailwind CSS, emphasizing utility-first design principles.",
   },
   {
     icon: "/Python-logo-notext.svg.png",
-    title: "Python: My Automation Sidekick",
+    title: "Python Automation and Scripting",
     description:
-      "From scripting to data crunching, Python is my go-to for backend logic, automation, and AI experiments. 🐍",
+      "Utilization of Python for backend automation, data processing, and exploratory projects in artificial intelligence.",
   },
 ];
 

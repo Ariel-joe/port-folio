@@ -36,7 +36,7 @@ const Hero = () => {
   </div>
 
   {/* this is the trusted by section/ includes the clients I have worked with */}
-  {/* <LogoCloud className="mt-24 max-w-3xl mx-auto" /> */}
+  <LogoCloud className="mt-24 max-w-3xl mx-auto" />
 </div>
 
   );
