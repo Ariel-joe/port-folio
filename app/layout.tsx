@@ -1,17 +1,22 @@
 import { TooltipProvider } from "@/components/ui/tooltip";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
-import { Geist } from "next/font/google";
+import { Geist, Outfit } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   subsets: ["latin"],
 });
 
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400", "700"], // Adjust weights as needed
+});
+
 export const metadata: Metadata = {
-  title: "PureLanding - Beautiful Shadcn UI Landing Page",
+  title: "Ariel Joe Portfolio - Beautiful Shadcn UI Landing Page",
   description:
-    "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+    "Ariel Joe is a full stack software engineer.",
   keywords: [
     "PureLanding",
     "PureLanding Landing Page",
@@ -47,11 +52,11 @@ export const metadata: Metadata = {
   },
   authors: [
     {
-      name: "Akash Moradiya",
+      name: "Ariel Joe",
       url: "https://shadcnui-blocks.com",
     },
   ],
-  creator: "Akash Moradiya",
+  creator: "Ariel Joe",
   icons: [
     {
       rel: "icon",
@@ -100,7 +105,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.className} antialiased`}>
+      <body className={`${geistSans.className} ${outfit.className} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <TooltipProvider>{children}</TooltipProvider>
         </ThemeProvider>
