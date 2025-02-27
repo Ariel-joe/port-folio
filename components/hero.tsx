@@ -16,7 +16,7 @@ const Hero = () => {
         Bringing Ideas to Life with Code & Creativity
       </h1>
       <p className="mt-6 max-w-[60ch] xs:text-lg">
-        Hi, I'm Ariel Joe, a MERN/MEAN stack developer with a passion for building
+        Hi, I'm Ariel Joe, a full stack developer with a passion for building
         seamless user experiences. From web apps to automation projects, I turn ideas into reality—
         with a sprinkle of fun along the way! 🚀
       </p>
