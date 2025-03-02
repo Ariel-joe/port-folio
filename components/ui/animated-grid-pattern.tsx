@@ -96,7 +96,7 @@ export function AnimatedGridPattern({
         resizeObserver.unobserve(containerRef.current);
       }
     };
-  }, [containerRef]);
+  },);
 
   return (
     <svg
